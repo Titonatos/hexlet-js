@@ -1,8 +1,8 @@
-name: hello-world
+name: hello
 on: push
 jobs:
   build:
-    runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
     setps:
       - uses: actions/checkout@v3
       - run: make say-hello
