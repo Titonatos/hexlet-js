@@ -1,0 +1,7 @@
+name: hello-world
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    setps:
+      - run: make say-hello
